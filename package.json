@@ -1,0 +1,33 @@
+{
+  "name": "message_board",
+  "version": "1.0.0",
+  "description": "Message board with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "npx knex migrate:latest",
+    "rollback": "npx knex migrate:rollback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pythonen/message_board.git"
+  },
+  "author": "Aleksi Puttonen || Pythonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pythonen/message_board/issues"
+  },
+  "homepage": "https://github.com/Pythonen/message_board#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.16",
+    "pg": "^8.5.1"
+  }
+}

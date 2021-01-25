@@ -1,6 +1,8 @@
 # Message_board
 
-To get running:
+Testing relational databases with Knex!
+
+ ## To get running
 
 You have to have docker and docker-compose installed on your machine.
 

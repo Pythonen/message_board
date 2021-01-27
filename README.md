@@ -16,5 +16,7 @@ Make `.env` file and add your environment variables as they are shown in `.env.s
 
 `npm run rollback` to rollback 
 
+`npm run seed` to seed the database with some initial info
+
 Visual interface for the database should be running in `localhost:8090`
  

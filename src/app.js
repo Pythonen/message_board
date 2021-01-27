@@ -5,7 +5,7 @@ const compression = require('compression');
 const errorHandlers = require('./middlewares/errorHandlers');
 const apiRouter = require('./api/index');
 
-app = express();
+const app = express();
 
 app.use(helmet());
 app.use(morgan('common'));

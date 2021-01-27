@@ -18,5 +18,7 @@ Make `.env` file and add your environment variables as they are shown in `.env.s
 
 `npm run seed` to seed the database with some initial info
 
+`npm run dev` to run the express server on `localhost:5000`
+
 Visual interface for the database should be running in `localhost:8090`
  

@@ -20,5 +20,7 @@ Make `.env` file and add your environment variables as they are shown in `.env.s
 
 `npm run dev` to run the express server on `localhost:5000`
 
+`npm test` to run tests. Note that you have to have the test database container running.
+
 Visual interface for the database should be running in `localhost:8090`
  

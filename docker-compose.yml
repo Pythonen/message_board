@@ -20,7 +20,7 @@ services:
     restart: always
     ports:
       - 8090:8080
-  
+
   test_db:
     image: postgres
     restart: always
@@ -31,4 +31,4 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_DB: ${POSTGRES_TEST_DB}
     ports:
-      - 5090:5091
+      - 5430:5432

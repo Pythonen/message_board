@@ -1,12 +1,8 @@
-// const db = require('../knexfile');
+const db = require('./db');
 
-// beforeAll(async () => {
-//   await db.migrate.rollback();
-//   await db.migrate.latest();
-//   await db.seed.run();
-// });
-
-// TODO: db.destroy() is not a function.. why tho?
-// afterAll(async () => {
-//   await db.destroy();
-// });
+module.exports = async () => {
+  console.log(process.env.NODE_ENV);
+  await db.migrate.rollback();
+  await db.migrate.latest();
+  await db.seed.run();
+};
